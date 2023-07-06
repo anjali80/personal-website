@@ -1,5 +1,4 @@
 # personal-website
-This is my personal website
+This is Personal-Portfolio Website
 
-
-![home-page-01](https://github.com/anjali80/personal-website/assets/123894313/51b2eee7-867a-4d91-b247-14596b3274af)
+![home-page-01](https://github.com/anjali80/personal-website/assets/123894313/0e5f1ac7-eaa8-4d8d-975f-8a09a3c3e9ce)
