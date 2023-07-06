@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 115px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2.5rem;
+            /* margin: 65px 0; */
+
+        }
+
+        .rightsection img {
+            width: 75%;
+
+            margin: 30px 0;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+            ;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .secondsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondsection .box {
+            display: flex;
+            background: white;
+            width: 60vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 145px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 100px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 110px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        /* .second-right-section img {
+
+            
+            width: 75%;
+
+            margin: 30px 0;
+
+
+        } */
+        /* .image-top {
+            width: 200px;
+            height: 00px;
+            margin: 126px 135px;
+            position: relative;
+            top: 24px;
+            left: 150px;
+         }   */
+
+        footer {
+            /* background-color: #0e0e1a; */
+            background-color: #0e0e1a;
+
+            /* height: 233px; */
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-around;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .thirdsection {
+
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+
+        }
+
+        .third-top-gray {
+            color: gray;
+        }
+
+        .third-vertical-section {
+            display: flex;
+            padding: 23px 122px;
+            /* justify-content: space-around; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Anjali's Portfolio
+
+            </div>
+            <div class="right">
+                <ul>
+                    <!-- <li><a href="\">Home</a></li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li><a href="\">Education</a></li>
+                    <li><a href="\">Hobbies</a></li>
+                    <li><a href="\">Projects</a></li>
+                    <li><a href="\">Contact me</a></li> -->
+                    
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Anjali</span>
+                <div>and I am passionate </div>
+                <!-- <div>Web Developer</div> -->
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="bg2.png" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">
+                my education till now
+            </span>
+            <h1>Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <!-- <img class="image-top" src="edu2.png" alt=""> -->
+                    <div class="vertical-title">
+                        S.S.P School (till 2019)
+                    </div>
+                    <div class="vertical-desc">
+                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dignissimos ratione similique. -->
+                        std(I-X) SSC Board
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        C.H.M College(2019-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        completed my 11th and 12th grade
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        VESIT (2021-present)
+                    </div>
+                    <div class="vertical-desc">
+                        currently doing Bachelor Of Engineering (B.E)
+                    </div>
+                </div>
+
+                <!-- <div class="second-right-section">
+                    <img class="image-top" src="edu2.png" alt="">
+
+                </div> -->
+
+
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <span class="third-top-gray">
+                My hobbies
+            </span>
+            <h1>Hobbies</h1>
+            <div class="third-vertical-section">
+                <ul>
+                    <li>Sketching</li>
+                    <li>Sports</li>
+                    <li>Cooking</li>
+                </ul>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anjali Gupta</h3>
+            </div>
+            <div class="footer-second">
+                <!-- <ul>
+                    <li>Home</li>
+                    <li>Education</li>
+                    <li>Hobbies</li>
+                    <li>Contact</li>
+                </ul> -->
+                <ul>
+                    <li>Linkedin</li>
+                </ul>
+                <!-- <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a> -->
+            </div>
+            <div class="footer-third">
+                <!-- <ul>
+                    <li>Home</li>
+                    <li>Education</li>
+                    <li>Hobbies</li>
+                    <li>Contact</li>
+
+                </ul> -->
+                <ul>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <!-- <ul>
+                    <li>Home</li>
+                    <li>Education</li>
+                    <li>Hobbies</li>
+                    <li>Contact</li>
+
+                </ul> -->
+                <ul>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;anjali.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
